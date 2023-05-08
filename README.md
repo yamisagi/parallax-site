@@ -64,6 +64,9 @@ In this repository, I will make a site with Parallax effect for Full Stack Cours
 - [x] HTML Structure
 - [x] CSS Styling
 - [x] Add Images
+- [x] Add Parallax Effect with CSS
+- [x] Add Card Section & Styling
+- [x] Add Footer & Styling
 
 
 
