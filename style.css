@@ -4,11 +4,10 @@
   box-sizing: border-box;
 }
 header {
-  height: 100vh;
+  height: 100%;
   width: 100%;
   display: flex;
   justify-content: center;
-  background-image: url(./img/bg.jpg);
   align-items: center;
 }
 h1 {
@@ -39,6 +38,7 @@ img {
   width: 100%;
   height: 100%;
 }
+
 .brand {
   text-align: center;
 }
@@ -51,11 +51,14 @@ img {
   font-size: 0.7rem;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
+
 .text-dark {
   background-color: #0f1216;
   color: #fff;
 }
-
+.bg{
+  background-image: url(./img/bg.jpg);
+}
 .bg1 {
   background-image: url(./img/bg1.jpg);
 }
@@ -68,9 +71,6 @@ img {
 .bg4 {
   background-image: url(./img/bg4.jpg);
 }
-.bg5 {
-  background-image: url(./img/bg5.jpg);
-}
 
 .justify {
   height: 100vh;
@@ -81,10 +81,12 @@ img {
 }
 .card {
   height: 100vh;
+  width: 100%;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  z-index: -1;
 }
 
 @media (max-width: 768px) {
